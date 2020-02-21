@@ -1,0 +1,240 @@
+body {
+  font-family: "Muli", sans-serif;
+}
+.font-newzaldtest {
+  font-family: "Newzald Test", sans-serif;
+  font-size: 4em !important;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.liberia {
+  font-size: 5em;
+}
+
+#section1 {
+  color: #fff;
+}
+.text-dark {
+  color: #212121 !important;
+}
+.nurse-copy-section {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 75px;
+  width: 100%;
+  z-index: 999;
+  text-align: left;
+}
+.nurse-copy-section h1 {
+  line-height: 1;
+  margin-bottom: 25px;
+}
+.nurse-copy-section h5 {
+  font-size: 20px;
+  line-height: 1.7;
+}
+.nurse-copy-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.section-container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.section-container h4 {
+  font-size: 1.5em !important;
+  line-height: 1.6;
+}
+.nurse-copy1 h1 {
+  font-size: 3em !important;
+}
+.section-last h1 {
+  font-size: 3em !important;
+  z-index: 9;
+}
+.safe-birth-circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 1px solid #d6d6d6;
+  text-align: center;
+  margin: 0 auto;
+}
+.safe-birth-circle h4 {
+  font-size: 1.8em !important;
+  line-height: normal;
+}
+.newborn.bg-transparent::before,
+.newborncopy2.bg-transparent::before,
+.kid.bg-transparent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hover-box {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  font-family: inherit;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.fp-section {
+  text-align: center;
+}
+.nurseNchild-copy {
+  height: 637px;
+}
+button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 8;
+}
+.child {
+  background: url(/images/child.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.women {
+  background: url(/images/nurseNchild.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nurse {
+  background: url(/images/nurse.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nurse-copy {
+  background: url(/images/nurse-copy.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 637px;
+}
+.nurse-copy1 {
+  background: url(/images/nurse-copy1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nurseNchild-copy {
+  background: url(/images/nurseNchild-copy.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kid {
+  background: url(/images/kid.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 637px;
+}
+.newborn {
+  background: url(/images/newBorn.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 637px;
+}
+.newborncopy2 {
+  background: url(/images/new-born-copy-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 637px;
+}
+
+circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.bg-fixed {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.next-btn {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em !important;
+  cursor: pointer;
+}
+.next-btn::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 0px;
+  background: #fff;
+  width: 100%;
+}
+
+.videoInsert {
+  width: 800px;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  background-color: blue;
+}
+.block-transparent {
+  background-color: transparent;
+}
+
+.middle-section {
+  position: relative;
+  z-index: 1;
+}
+.cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: blur(20px);
+  z-index: 0;
+  top: 0;
+}
+.blur {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  border-radius: 50%;
+}
+.follow {
+  z-index: 10px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  // border-radius:50%;
+}
